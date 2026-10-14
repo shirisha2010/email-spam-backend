@@ -1,0 +1,55 @@
+{
+  "best_model": "Linear SVM",
+  "train_size": 524,
+  "test_size": 132,
+  "results": {
+    "Naive Bayes": {
+      "accuracy": 0.9924242424242424,
+      "precision": 0.9896907216494846,
+      "recall": 1.0,
+      "f1": 0.9948186528497409,
+      "confusion_matrix": [
+        [
+          35,
+          1
+        ],
+        [
+          0,
+          96
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9848484848484849,
+      "precision": 0.9795918367346939,
+      "recall": 1.0,
+      "f1": 0.9896907216494846,
+      "confusion_matrix": [
+        [
+          34,
+          2
+        ],
+        [
+          0,
+          96
+        ]
+      ]
+    },
+    "Linear SVM": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          36,
+          0
+        ],
+        [
+          0,
+          96
+        ]
+      ]
+    }
+  }
+}
